@@ -266,6 +266,23 @@
   resolved "https://registry.yarnpkg.com/@swc/wasm/-/wasm-1.2.130.tgz#88ac26433335d1f957162a9a92f1450b73c176a0"
   integrity sha512-rNcJsBxS70+pv8YUWwf5fRlWX6JoY/HJc25HD/F8m6Kv7XhJdqPPMhyX6TKkUBPAG7TWlZYoxa+rHAjPy4Cj3Q==
 
+"@types/fs-extra@^9.0.13":
+  version "9.0.13"
+  resolved "https://registry.yarnpkg.com/@types/fs-extra/-/fs-extra-9.0.13.tgz#7594fbae04fe7f1918ce8b3d213f74ff44ac1f45"
+  integrity sha512-nEnwB++1u5lVDM2UI4c1+5R+FYaKfaAzS4OococimjVm3nQw3TuzH5UNsocrcTBbhnerblyHj4A49qXbIiZdpA==
+  dependencies:
+    "@types/node" "*"
+
+"@types/html-minifier-terser@^6.1.0":
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/@types/html-minifier-terser/-/html-minifier-terser-6.1.0.tgz#4fc33a00c1d0c16987b1a20cf92d20614c55ac35"
+  integrity sha512-oh/6byDPnL1zeNXFrDXFLyZjkr1MsBG667IM792caf1L2UPOOMf65NFzjUH/ltyfwjAGfs1rsX1eftK0jC/KIg==
+
+"@types/lodash@^4.14.184":
+  version "4.14.184"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.184.tgz#23f96cd2a21a28e106dc24d825d4aa966de7a9fe"
+  integrity sha512-RoZphVtHbxPZizt4IcILciSWiC6dcn+eZ8oX9IWEYfDMcocdd42f7NPI6fQj+6zI8y4E0L7gu2pcZKLGTRaV9Q==
+
 "@types/mjml-core@*":
   version "4.7.1"
   resolved "https://registry.yarnpkg.com/@types/mjml-core/-/mjml-core-4.7.1.tgz#c2627499045b54eccfca38e2b532566fb0689189"
@@ -285,15 +302,40 @@
   dependencies:
     "@types/mjml-core" "*"
 
+"@types/node-fetch@^2.6.1":
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/@types/node-fetch/-/node-fetch-2.6.2.tgz#d1a9c5fd049d9415dce61571557104dec3ec81da"
+  integrity sha512-DHqhlq5jeESLy19TYhLakJ07kNumXWjcDdxXsLUMJZ6ue8VZJj4kLPQVE/2mdHh3xZziNF1xppu5lwmS53HR+A==
+  dependencies:
+    "@types/node" "*"
+    form-data "^3.0.0"
+
 "@types/node@*":
   version "18.6.4"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.6.4.tgz#fd26723a8a3f8f46729812a7f9b4fc2d1608ed39"
   integrity sha512-I4BD3L+6AWiUobfxZ49DlU43gtI+FTHSv9pE2Zekg6KjMpre4ByusaljW3vYSLJrvQ1ck1hUaeVu8HVlY3vzHg==
 
+"@types/node@^17.0.24":
+  version "17.0.45"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.45.tgz#2c0fafd78705e7a18b7906b5201a522719dc5190"
+  integrity sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==
+
 "@types/nodemailer@^6.4.4", "@types/nodemailer@^6.4.5":
   version "6.4.5"
   resolved "https://registry.yarnpkg.com/@types/nodemailer/-/nodemailer-6.4.5.tgz#09011ac73259245475d1688e4ba101860567dc39"
   integrity sha512-zuP3nBRQHI6M2PkXnGGy1Ww4VB+MyYHGgnfV2T+JR9KLkeWqPJuyVUgLpKXuFnA/b7pZaIDFh2sV4759B7jK1g==
+  dependencies:
+    "@types/node" "*"
+
+"@types/prettier@^2.7.0":
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-2.7.0.tgz#ea03e9f0376a4446f44797ca19d9c46c36e352dc"
+  integrity sha512-RI1L7N4JnW5gQw2spvL7Sllfuf1SaHdrZpCHiBlCXjIlufi1SMNnbu2teze3/QE67Fg2tBlH7W+mi4hVNk4p0A==
+
+"@types/prompts@^2.0.14":
+  version "2.0.14"
+  resolved "https://registry.yarnpkg.com/@types/prompts/-/prompts-2.0.14.tgz#10cb8899844bb0771cabe57c1becaaaca9a3b521"
+  integrity sha512-HZBd99fKxRWpYCErtm2/yxUZv6/PBI9J7N4TNFffl5JbrYMHBwF25DjQGTW3b3jmXq+9P6/8fCIb2ee57BFfYA==
   dependencies:
     "@types/node" "*"
 
@@ -322,6 +364,18 @@
   version "0.16.2"
   resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
   integrity sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==
+
+"@types/yargs-parser@*":
+  version "21.0.0"
+  resolved "https://registry.yarnpkg.com/@types/yargs-parser/-/yargs-parser-21.0.0.tgz#0c60e537fa790f5f9472ed2776c2b71ec117351b"
+  integrity sha512-iO9ZQHkZxHn4mSakYV0vFHAVDyEOIJQrV2uZ06HxEPcx+mt8swXoZHIbaaJ2crJYFfErySgktuTZ3BeLz+XmFA==
+
+"@types/yargs@^17.0.10":
+  version "17.0.11"
+  resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-17.0.11.tgz#5e10ca33e219807c0eee0f08b5efcba9b6a42c06"
+  integrity sha512-aB4y9UDUXTSMxmM4MH+YnuR0g5Cph3FLQBoWoMB21DSvFVAxRVEHEMx3TLh+zUZYMCQtKiqazz0Q4Rre31f/OA==
+  dependencies:
+    "@types/yargs-parser" "*"
 
 abbrev@1:
   version "1.1.1"
@@ -403,6 +457,11 @@ array.prototype.flatmap@^1.3.0:
     define-properties "^1.1.3"
     es-abstract "^1.19.2"
     es-shim-unscopables "^1.0.0"
+
+asynckit@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
+  integrity sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==
 
 babel-runtime@~6.25.0:
   version "6.25.0"
@@ -636,6 +695,13 @@ color@^3.1.3:
     color-convert "^1.9.3"
     color-string "^1.6.0"
 
+combined-stream@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/combined-stream/-/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
+  integrity sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==
+  dependencies:
+    delayed-stream "~1.0.0"
+
 commander@^2.19.0:
   version "2.20.3"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
@@ -734,6 +800,11 @@ define-properties@^1.1.3, define-properties@^1.1.4:
   dependencies:
     has-property-descriptors "^1.0.0"
     object-keys "^1.1.1"
+
+delayed-stream@~1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
+  integrity sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==
 
 detect-node@2.0.4:
   version "2.0.4"
@@ -1262,6 +1333,15 @@ flatted@^3.1.0:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.7.tgz#609f39207cb614b89d0765b477cb2d437fbf9787"
   integrity sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==
 
+form-data@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/form-data/-/form-data-3.0.1.tgz#ebd53791b78356a99af9a300d4282c4d5eb9755f"
+  integrity sha512-RHkBKtLWUVwd7SqRIvCZMEvAMoGUp0XU+seQiZejj0COz3RI3hWP4sCv3gZWWLjJTd7rGwcsF5eKZGii0r/hbg==
+  dependencies:
+    asynckit "^0.4.0"
+    combined-stream "^1.0.8"
+    mime-types "^2.1.12"
+
 fs-extra@^10.1.0:
   version "10.1.0"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-10.1.0.tgz#02873cfbc4084dde127eaa5f9905eef2325d1abf"
@@ -1785,10 +1865,10 @@ lru-cache@^4.1.5:
     pseudomap "^1.0.2"
     yallist "^2.1.2"
 
-mailing-core@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/mailing-core/-/mailing-core-0.7.0.tgz#f2016f340b1d110b96eb3b04473ede3e18e85953"
-  integrity sha512-9bTNOkeu+iI6s3bSQS6G83WB00oirwX+Aoi6FPZueJ4n3Z+pXJO0pL4tFmTtMi+RMPQ0Uc88Vq4znjdAi2zWZA==
+mailing-core@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/mailing-core/-/mailing-core-0.7.1.tgz#abdf51f92418b36b25e5f863e0b38dc42dd86f28"
+  integrity sha512-mGV49NfBgbGm+tGpDXNMW+5e07EFBJMIJjBVrrI0vdHwuAewjHQD8uMQZHY2+Bixb5D0R3FMWOkTZV9kmMIdRA==
   dependencies:
     chalk "^4.1.2"
     fs-extra "^10.1.0"
@@ -1797,22 +1877,30 @@ mailing-core@^0.7.0:
     node-fetch "^2.6.7"
     open "^8.4.0"
 
-mailing@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/mailing/-/mailing-0.7.0.tgz#6bf5b6c0f50695c41a3838f5c9707cfdff1b2b93"
-  integrity sha512-OAVIElYoesZANGc6NLeiNXYVF4iMNmyxD+f1XLQVd8uvgMrOf9aHWbB//KCnhdos8uYDRw9BbMm/3/RUwgr/Tw==
+mailing@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/mailing/-/mailing-0.7.1.tgz#6750e1c7613d4e310350a22d1439145d35a00b95"
+  integrity sha512-BoC4O7TQ9w8b5WEb26M1cHoeP7g/VDi36rm5RwEw/QZ1MRTZkRs4XjXUpeEW9I66P1GPgekvMU0OG1ZLC0fEQw==
   dependencies:
     "@babel/parser" "^7.18.11"
     "@swc/core" "^1.2.229"
     "@swc/register" "^0.1.10"
+    "@types/fs-extra" "^9.0.13"
+    "@types/html-minifier-terser" "^6.1.0"
+    "@types/lodash" "^4.14.184"
     "@types/mjml" "^4.7.0"
     "@types/mjml-react" "^2.0.4"
+    "@types/node" "^17.0.24"
+    "@types/node-fetch" "^2.6.1"
     "@types/nodemailer" "^6.4.4"
+    "@types/prettier" "^2.7.0"
+    "@types/prompts" "^2.0.14"
+    "@types/yargs" "^17.0.10"
     chalk "^4.1.2"
     dotenv "^16.0.1"
     fs-extra "^10.1.0"
     lodash "^4.17.21"
-    mailing-core "^0.7.0"
+    mailing-core "^0.7.1"
     mjml "^4.12.0"
     mjml-react "^2.0.7"
     next "12.2.5"
@@ -1845,6 +1933,18 @@ micromatch@^4.0.4:
   dependencies:
     braces "^3.0.2"
     picomatch "^2.3.1"
+
+mime-db@1.52.0:
+  version "1.52.0"
+  resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.52.0.tgz#bbabcdc02859f4987301c856e3387ce5ec43bf70"
+  integrity sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==
+
+mime-types@^2.1.12:
+  version "2.1.35"
+  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.35.tgz#381a871b62a734450660ae3deee44813f70d959a"
+  integrity sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==
+  dependencies:
+    mime-db "1.52.0"
 
 mime@^2.4.6:
   version "2.6.0"
