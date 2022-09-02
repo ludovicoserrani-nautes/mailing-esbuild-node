@@ -1865,10 +1865,10 @@ lru-cache@^4.1.5:
     pseudomap "^1.0.2"
     yallist "^2.1.2"
 
-mailing-core@0.7.2-next.1, mailing-core@^0.7.2-next.1:
-  version "0.7.2-next.1"
-  resolved "https://registry.yarnpkg.com/mailing-core/-/mailing-core-0.7.2-next.1.tgz#bf50a21dbcb509b2854ac5cff01b2f66108ef083"
-  integrity sha512-Zl+86kcmkmDajoegIzVMHqgSG/4HOqcbmLDSbXqjwX29wlpSESIsP2lHzAiibJndeLC5OYA+B4iUppTaJ4YDmg==
+mailing-core@^0.7.3:
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/mailing-core/-/mailing-core-0.7.3.tgz#394e9960a03d5bf3c1f635e369e66dd5b1c11b08"
+  integrity sha512-QRd0z77VY+7vV/dHtL5mpsFOknEYE7PlByO7vKW4qxnagTPRY3pvDOLZRosR/8aPzD1n67EHi7SeTh6u4EIxDg==
   dependencies:
     chalk "^4.1.2"
     fs-extra "^10.1.0"
@@ -1877,10 +1877,10 @@ mailing-core@0.7.2-next.1, mailing-core@^0.7.2-next.1:
     node-fetch "^2.6.7"
     open "^8.4.0"
 
-mailing@0.7.2-next.1:
-  version "0.7.2-next.1"
-  resolved "https://registry.yarnpkg.com/mailing/-/mailing-0.7.2-next.1.tgz#472e5721d8993c4f3bce2be65fe582c2fe9a3542"
-  integrity sha512-1WGGsytpTgjJ7zuJW2Vt0qta2pMwq3DZfGzqGA1/Yyi7XiMdiFWA1Yzvn738kS9efK6tGwUcwhOVrk59dTLhiw==
+mailing@^0.7.3:
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/mailing/-/mailing-0.7.3.tgz#b0b7b6bb6863d53dfa8a565ecaea33eb8fab3c0e"
+  integrity sha512-WSoz0Le1NHDFdRAo7Ye8kxHAe4NJ/vCZ7LFlPnIqi9Y12pj63uB+l2uQ2xvgXIQQC9v2cDm/8LpvbQBCdn8SQA==
   dependencies:
     "@babel/parser" "^7.18.11"
     "@swc/core" "^1.2.229"
@@ -1899,9 +1899,10 @@ mailing@0.7.2-next.1:
     chalk "^4.1.2"
     chokidar "^3.5.3"
     dotenv "^16.0.1"
+    esbuild "^0.15.5"
     fs-extra "^10.1.0"
     lodash "^4.17.21"
-    mailing-core "^0.7.2-next.1"
+    mailing-core "^0.7.3"
     mjml "^4.12.0"
     mjml-react "^2.0.7"
     next "12.2.5"
