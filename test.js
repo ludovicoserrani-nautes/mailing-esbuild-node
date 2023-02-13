@@ -16,7 +16,7 @@ transport.sendMail(
     from: process.env.MAIL_FROM,
     subject: "My First Email",
     to: process.env.MAIL_TO,
-    html: renderWelcome({ name: "John" }),
+    html: renderWelcome({ includeUnsubscribe: true }),
   },
   (err, info) => {
     if (err) console.error(err);

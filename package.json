@@ -8,25 +8,26 @@
     "test": "yarn build && node test.js"
   },
   "dependencies": {
-    "dotenv": "^16.0.1",
-    "esbuild": "^0.15.5",
-    "mailing-core": "^0.7.3",
+    "dotenv": "^16.0.3",
+    "esbuild": "^0.17.8",
+    "mailing-core": "^0.9.10",
     "mjml": "^4.13.0",
     "mjml-react": "^2.0.8",
-    "nodemailer": "^6.7.7",
+    "next": "^13.1.6",
+    "nodemailer": "^6.9.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/mjml": "^4.7.0",
-    "@types/mjml-react": "^2.0.5",
-    "@types/nodemailer": "^6.4.5",
-    "@types/react": "^18.0.15",
-    "@types/react-dom": "^18.0.6",
-    "eslint": "^8.22.0",
-    "eslint-config-prettier": "^8.5.0",
+    "@types/mjml-react": "^2.0.6",
+    "@types/nodemailer": "^6.4.7",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.10",
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.31.0",
-    "mailing": "^0.7.3"
+    "eslint-plugin-react": "^7.32.2",
+    "mailing": "^0.9.10"
   }
 }

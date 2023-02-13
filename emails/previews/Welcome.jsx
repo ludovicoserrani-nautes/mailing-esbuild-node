@@ -1,6 +1,6 @@
 import React from "react";
 import Welcome from "../Welcome";
 
-export function toAmelita() {
-  return <Welcome name="Amelita" />;
+export function preview() {
+  return <Welcome includeUnsubscribe />;
 }

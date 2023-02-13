@@ -6,6 +6,6 @@ function renderTemplate(Template, props) {
   return render(React.createElement(Template, props)).html;
 }
 
-export function renderWelcome({ name }) {
-  return renderTemplate(Welcome, { name });
+export function renderWelcome({ includeUnsubscribe }) {
+  return renderTemplate(Welcome, { includeUnsubscribe });
 }
